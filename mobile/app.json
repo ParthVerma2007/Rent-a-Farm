@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Rent-a-Farm",
+    "slug": "rent-a-farm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#176B3A"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rentafarm.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#176B3A"
+      },
+      "package": "com.rentafarm.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ]
+  }
+}
